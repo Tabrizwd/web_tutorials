@@ -30,12 +30,24 @@ body, h1,h2,h3,h4,p,a {
     height: 100%;
     background-color: rgba(0,0,0,.5);
   }
+  .content{
+    font-size: 0;
+    width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   .card{
     width: 350px;
-    background-color:#e3f3ff;
     margin-bottom: 60px;
 padding: 45px 45px 75px;
 border: solid 2px rgb(250, 50, 50, .4);
+display: inline-block;
+margin-right: 90px;
+  }
+  .no-right-margin{
+    margin-right: 0;
   }
   .card-title{
     font-size: 24px;
