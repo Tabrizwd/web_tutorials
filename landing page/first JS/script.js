@@ -8,8 +8,9 @@ let phrases = [
   ];
 
   function getRandomElement () {
+    
     let randIndex = Math.floor(Math.random() * phrases.length);
 console.log(randIndex);
-console.log(phrases[randIndex]); 
+document.getElementById("demo").innerHTML=phrases[randIndex];
 }
 getRandomElement();
